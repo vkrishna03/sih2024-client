@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import LandingLayout from "./components/LandingLayout";
+import LandingLayout from "./layouts/LandingLayout";
 import LandingPage from "./modules/landing/LandingPage";
-import AppLayout from "./components/AppLayout";
-import AuthLayout from "./components/AuthLayout";
+import AppLayout from "./layouts/AppLayout";
+import AuthLayout from "./layouts/AuthLayout";
 
 function App() {
   const [count, setCount] = useState(0);
